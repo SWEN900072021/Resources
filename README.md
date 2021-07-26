@@ -27,8 +27,7 @@ project/
 ├── 2020/
 │   ├── project-description.pdf
 ├── 2021/
-│   ├── project-description.pdf
-│   ├── 1_electronic_medical_records.md
+│   ├── SWEN90007_PROJ_DESC_2021.pdf
 │   ├── 2_covid19_vaccine_system.md
 │   ├── 3_travel_system.md
 sample-codes/
