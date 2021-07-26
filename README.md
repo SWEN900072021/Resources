@@ -23,6 +23,16 @@ The documents are related to our subject planning, available on [Canvas](https:/
 ## What's included
 Within this repo download you'll find the following directories and files, logically grouping common resources. You'll see something like this:
 ```text
+how_to/
+├── 1_intellij_install.md
+├── 2_tomcat_download.md
+├── 3_postgresql_setup.md
+├── 4_create_project.md
+├── 5_github_setup.md
+├── 6_github_clone.md
+├── 7_connect_intellij_postgresql.md
+├── 8_heroku_deploy.md
+├── tools_and_plugins.md
 project/
 ├── 2020/
 │   ├── project-description.pdf
@@ -38,17 +48,6 @@ sample-codes/
 │   ├── setup_DB.pdf
 │   ├── set_enviroment.pdf
 ├── 2021/
-tutorials/
-├── 1_intellij_install.md
-├── 2_tomcat_download.md
-├── 3_postgresql_setup.md
-├── 4_create_project.md
-├── 5_github_setup.md
-├── 6_github_clone.md
-├── 7_connect_intellij_postgresql.md
-├── 8_heroku_deploy.md
-├── extra_resources.md
-├── tools_and_plugins.md
 ```
 
 ## Canvas
