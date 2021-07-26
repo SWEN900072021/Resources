@@ -20,13 +20,13 @@ Below is a list of extra resources you can use to become more familiar with them
 <summary>Create a Web Application in IntelliJ</summary>
 Please complete the below steps to create your first project:
 
-[Step 1: Install IntelliJ Professional Edition](../../tutorials/1_intellij_install.md)
+[Step 1: Install IntelliJ Professional Edition](../../how_to/1_intellij_install.md)
 
-[Step 2: Download Tomcat](../../tutorials/2_tomcat_download.md)
+[Step 2: Download Tomcat](../../how_to/2_tomcat_download.md)
 
-[Step 3: Setup PostgreSQL](../../tutorials/3_postgresql_setup.md)
+[Step 3: Setup PostgreSQL](../../how_to/3_postgresql_setup.md)
 
-[Step 4: Create Project in IntelliJ](../../tutorials/4_create_project.md)
+[Step 4: Create Project in IntelliJ](../../how_to/4_create_project.md)
 
 </details>
 <details>
@@ -287,7 +287,7 @@ You can now build on queries on top of this.
 <details>
 <summary>Connect to Heroku PostgreSQL</summary>
 
-You must have completed [Step 8: Deploy Project to Heroku](../../tutorials/8_heroku_deploy.md) before attempting this.
+You must have completed [Step 8: Deploy Project to Heroku](../../how_to/8_heroku_deploy.md) before attempting this.
 
 Now that you've deployed to Heroku, you must change the database credentials in order to access Heroku's PostgreSQL 
 instance.
