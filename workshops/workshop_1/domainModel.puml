@@ -1,0 +1,61 @@
+@startuml
+
+' https://plantuml.com/class-diagram
+
+Exam "1" -- "1..*" Question : contains >
+Exam "1" -- "*" Grade : relates to >
+Submissions "*" -- "*" Question : answers >
+User "1" -- "*" Exam : creates >
+User "1..*" -- "0..*" Subject : teaches >
+User "1..*" -- "0..*" Subject : takes >
+User "*" -- "1" Submissions : submits >
+Subject "1" -- "0..*" Exam : includes >
+Submissions "0..*" -- "1" Exam : belongs to >
+Question <|-- MultipleChoiceQuestion
+MultipleChoiceQuestion "1" -- "2..*" Option : includes >
+
+class User {
+  id
+  firstName
+  lastName
+  email
+}
+
+class Grade {
+  marks
+}
+
+class User {
+}
+
+class User {
+}
+
+class User {
+}
+
+class Subject {
+  id
+  name
+  code
+  year
+}
+
+class Exam {
+  id
+  title
+}
+
+class Question {
+}
+
+class MultipleChoiceQuestion {
+}
+
+class Option {
+}
+
+class Submissions {
+}
+
+@enduml

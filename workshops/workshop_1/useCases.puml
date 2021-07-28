@@ -1,0 +1,22 @@
+@startuml
+' https://plantuml.com/use-case-diagram
+
+left to right direction
+
+actor Admin
+actor Student
+actor Instructor
+
+package "Examination Application" {
+    usecase "Login" as UC1
+    usecase "Create exam" as UC2
+    usecase "Take exam" as UC3
+}
+
+Admin --> UC1
+Student --> UC1
+Instructor --> UC1
+Instructor --> UC2
+Student --> UC3
+
+@enduml
