@@ -23,6 +23,9 @@ The documents are related to our subject planning, available on [Canvas](https:/
 ## What's included
 Within this repo download you'll find the following directories and files, logically grouping common resources. You'll see something like this:
 ```text
+course_notes/
+├── 2021/
+│   ├──SWEN90007_Course_Notes_2021_SM2.pdf
 how_to/
 ├── 1_intellij_install.md
 ├── 2_tomcat_download.md
