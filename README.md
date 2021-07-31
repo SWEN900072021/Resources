@@ -1,4 +1,4 @@
-# SWEN90007 Repository 
+# SWEN90007 Software Design and Architecture Repository 
 
 ## Table of contents
 
