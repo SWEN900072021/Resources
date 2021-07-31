@@ -6,32 +6,32 @@
 
 ### Table of Contents
 
-1. [PROJECT OVERVIEW](#project-overview)
-2. [APPLICATION DOMAIN](#application-domain)
-3. [PROGRAMMING LANGUAGE AND ARCHITECTURE](#programming-language-and-architecture)
-4. [PLAGIARISM](#plagiarism)
-5. [TEAMS](#teams)
-6. [USE OF CODE REPOSITORIES AND COLLABORATIVE TOOLS](#use-of-code-repositories-and-collaborative-tools)
-7. [PEER REVIEW](#peer-review)
-8. [TEAMWORK DURING WORKSHOPS](#teamwork-during-workshops)
-9. [DETAILED PROJECT DESCRIPTION](#detailed-project-description)  
-&nbsp;&nbsp;&nbsp;&nbsp;[PART 1 \[15 MARKS\]](#part-1-15-marks-task)  
-&nbsp;&nbsp;&nbsp;&nbsp;[PART 2 \[40 MARKS\]](#part-2-40-marks-task)  
-&nbsp;&nbsp;&nbsp;&nbsp;[PART 3 \[35 MARKS\]](#part-3-35-marks-task)  
-&nbsp;&nbsp;&nbsp;&nbsp;[PART 4 \[10 MARKS\]](#part-4-10-marks-task)
-10. [SUBMISSIONS](#submissions)
-11. [EXTENSIONS](#extensions)
-12. [LATE SUBMISSIONS](#late-submissions)
-13. [ASSESSMENT CRITERIA](#assessment-criteria)  
-&nbsp;&nbsp;&nbsp;&nbsp;[ASSESSMENT BREAKDOWN](#assessment-breakdown)
-14. [APPENDIX A – CHECKLIST FOR PART1 DELIVERABLE](#appendix-a--checklist-for-part-1-deliverable)
-15. [APPENDIX B – CHECKLIST FOR PART2 DELIVERABLE](#appendix-b--checklist-for-part-2-deliverable)
-16. [APPENDIX C – CHECKLIST FOR PART3 DELIVERABLE](#appendix-c--checklist-for-part-3-deliverable)
-17. [APPENDIX D – CHECKLIST FOR PART4 DELIVERABLE](#appendix-d--checklist-for-part-4-deliverable)
-18. [APPENDIX E – SIMPLIFIED USE CASES](#appendix-e--simplified-use-cases)
-19. [APPENDIX F – EXPANDED USE CASES](#appendix-f--expanded-use-cases)
-20. [APPENDIX G – ARCHITECTURE DOCUMENT](#appendix-g--architecture-document)
-21. [APPENDIX H – TEST CASES AND DATA ENTRY DOCUMENT](#appendix-h--test-cases-and-data-entry-document)
+1. [Project Overview](#project-overview)
+2. [Application Domain](#application-domain)
+3. [Programming Language and Architecture](#programming-language-and-architecture)
+4. [Plagiarism](#plagiarism)
+5. [Teams](#teams)
+6. [Use of Code Repositories and Collaborative Tools](#use-of-code-repositories-and-collaborative-tools)
+7. [Peer Review](#peer-review)
+8. [Teamwork During Workshops](#teamwork-during-workshops)
+9. [Detailed Project Description](#detailed-project-description)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Part 1 \[15 marks\]](#part-1-15-marks-task)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Part 2 \[40 marks\]](#part-2-40-marks-task)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Part 3 \[35 marks\]](#part-3-35-marks-task)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Part 4 \[10 marks\]](#part-4-10-marks-task)
+10. [Submissions](#submissions)
+11. [Extensions](#extensions)
+12. [Late Submissions](#late-submissions)
+13. [Assessment Criteria](#assessment-criteria)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Assessment Breakdown](#assessment-breakdown)
+14. [Appendix A – Checklist for Part 1 Deliverable](#appendix-a--checklist-for-part-1-deliverable)
+15. [Appendix B – Checklist for Part 2 Deliverable](#appendix-b--checklist-for-part-2-deliverable)
+16. [Appendix C – Checklist for Part 3 Deliverable](#appendix-c--checklist-for-part-3-deliverable)
+17. [Appendix D – Checklist for Part 4 Deliverable](#appendix-d--checklist-for-part-4-deliverable)
+18. [Appendix E – Simplified Use Cases](#appendix-e--simplified-use-cases)
+19. [Appendix F – Expanded Use Cases](#appendix-f--expanded-use-cases)
+20. [Appendix G – Architecture Document](#appendix-g--architecture-document)
+21. [Appendix H – Test Cases and Data Entry Document](#appendix-h--test-cases-and-data-entry-document)
 
 ## Project Overview
 
@@ -52,8 +52,8 @@ The project aims to give students the experience to:
 This year, you and your team will choose one of the two available projects to implement (descriptions available on 
 Canvas and on GitHub). Make sure you read them all carefully before you make your decision.
 
-- [Project Idea #1: COVID-19 Vaccine Booking and Management System](https://canvas.lms.unimelb.edu.au/courses/106775/pages/covid-19-vaccine-booking-and-management-system?module_item_id=3106898)
-- [Project Idea #2: Online Travel Reservation System](https://canvas.lms.unimelb.edu.au/courses/106775/pages/online-travel-reservation-system)
+- [Project Idea #1: COVID-19 Vaccine Booking and Management System](1_covid19_vaccine_system.md)
+- [Project Idea #2: Online Travel Reservation System](2_travel_system.md)
 
 ## Programming Language and Architecture
 
@@ -337,7 +337,7 @@ Extensions will only be granted if students are able to provide appropriate supp
 needed you must contact the lecturer as soon as possible, before the submission date. It will not be possible to apply 
 for an extension after the submission date.
 
-For further details please see the ask UNimelb site: [view](https://ask.unimelb.edu.au/app/answers/detail/a_id/5667/~/applying-for-an-extension)
+For further details please see the ask Unimelb site: [view](https://ask.unimelb.edu.au/app/answers/detail/a_id/5667/~/applying-for-an-extension)
 
 ## Late Submissions
 
