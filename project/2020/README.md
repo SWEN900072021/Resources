@@ -1,4 +1,4 @@
-# SWEN90007 Project - 2020 SM2
+# Project - 2020 SM2
 
 In this subject, we will discuss a variety of design principles and architectural patterns for enterprise applications. In this project, students will have the opportunity to gain practical experience in the implementation of these patterns by developing an examination platform to facilitate online subject delivery. 
 

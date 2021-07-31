@@ -1,14 +1,16 @@
-# SWEN90007 Resources
+# Project
 
-List of previous and current projects.
+List of previous years' and current year's projects.
 
-## What's included
-```text
-2020/
-├── project-description.pdf
-2021/
-├── project-description.pdf
-├── 1_electronic_medical_records.md
-├── 2_covid19_vaccine_system.md
-├── 3_travel_system.md
-```
+## What's Included
+````
+├── 2020
+│ ├── README.md
+│ └── project_description.pdf
+├── 2021
+│ ├── 1_covid19_vaccine_system.md
+│ ├── 2_travel_system.md
+│ ├── README.md
+│ └── project_description.pdf
+├── README.md
+````

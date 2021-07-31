@@ -1,4 +1,4 @@
-## Optional: Useful Tools and IntelliJ Plugins
+## Useful Tools and IntelliJ Plugins
 
 ---
 
