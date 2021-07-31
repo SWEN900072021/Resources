@@ -60,7 +60,6 @@ Within this repo download you'll find the following directories and files, logic
 │   ├── 8_heroku_deploy.md
 │   ├── README.md
 │   └── screenshots
-├── tree.text
 └── workshops
 ````
 
