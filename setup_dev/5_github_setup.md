@@ -8,16 +8,6 @@ Create a new repository for the project.
 under the university's academic integrity policy if someone plagiarises off your work (even if you were unaware they were
 plagiarising).  
 
-Invite **all** the teaching staff of the subject* to the repository.
-Their usernames are:
-
-| Name | Username |
-| --- | --- |
-| Eduardo Oliveira | @agogear |
-| Maria Read | @mariaars |
-| Luke Rosa | @lukearosa |
-| Samodha | @samodhap |
-
 Once you have created a repository, open a terminal window. Navigate into the project you created in step 3.
 
 Get the web URL of the repository you have created:
