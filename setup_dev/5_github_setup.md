@@ -1,9 +1,6 @@
 ## Step 5: Setup GitHub Repository
 
----
-Create a GitHub account [here](https://www.github.com), if you do not already have one.
-
-Create a new repository for the project.
+> You should have been invited to the GitHub Classroom set up for this project. Make sure you create a repository inside the team on Classrooms.
 > *Make sure you set the repository as private* to avoid others plagiarising your work. You **will** be help responsible 
 under the university's academic integrity policy if someone plagiarises off your work (even if you were unaware they were
 plagiarising).  
