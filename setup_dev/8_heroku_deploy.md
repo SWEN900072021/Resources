@@ -287,6 +287,7 @@ To create the repository as a Heroku application, enter:
 heroku create
 ````
 This will create the application on Heroku:
+    
 ![](screenshots/8_heroku_deploy_1.png)
 > *You can rename the application (and change the URL) by logging into Heroku and going to settings.*
 
@@ -295,6 +296,7 @@ To deploy it to the URL above, enter the following into terminal:
 mvn clean heroku:deploy-war
 ````
 It will take a few minutes to build:
+
 ![](screenshots/8_heroku_deploy_2.png)
 Now you can go to the URL above, and your project will be deployed.
 
