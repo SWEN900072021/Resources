@@ -4,16 +4,6 @@
 
 ### Set Up Repository to Work with Heroku
 
-First create a Heroku account [here](https://www.heroku.com). ***Only one team member needs to do this.***
-
-Select Create New Application:
-
-![](screenshots/8_heroku_deploy_8.png)
-
-Enter an application name and select Create App:
-
-![](screenshots/8_heroku_deploy_9.png)
-
 Open the project in IntelliJ and right-click on the project outermost folder and select New -> File:
 
 ![](screenshots/8_heroku_deploy_10.png)
@@ -43,7 +33,7 @@ If it prompts you to register file type association, select the first option and
 
 In the file, enter:
 ````
-web: java $JAVA_OPTS -jar webapp-runner.jar $WEBAPP_RUNNER_OPTS --port $PORT target/demo-1.0-SNAPSHOT.war
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar $WEBAPP_RUNNER_OPTS --port $PORT target/demo-1.0-SNAPSHOT.war
 ````
 
 ![](screenshots/8_heroku_deploy_15.png)
@@ -69,7 +59,17 @@ main. ***Be careful about pushing changes to GitHub after project submission. Ch
 and might impact the markers' ability to mark your project (i.e., if it
 introduces a new bug).***
 
-First, update the pom.xml file to add the Heroku webapp-runner dependency:
+First create a Heroku account [here](https://www.heroku.com). ***Only one team member needs to do this.***
+
+Select Create New Application:
+
+![](screenshots/8_heroku_deploy_8.png)
+
+Enter an application name and select Create App:
+
+![](screenshots/8_heroku_deploy_9.png)
+
+Update the pom.xml file to add the Heroku webapp-runner dependency:
 ````
 <artifactItem>
     <groupId>com.heroku</groupId>
