@@ -34,11 +34,11 @@ Please complete the below steps to create your first project:
 
 In this example, the project is titled 'test'. Expand the directory as shown below and create a servlet:
 
-![](screenshots/simple_example_1.png)
+![](screenshots/first_web_app_1.png)
 
 We are going to create a LoginServlet:
 
-![](screenshots/simple_example_2.png)
+![](screenshots/first_web_app_2.png)
 
 Title the servlet LoginServlet and change the value to be '/login' - the value becomes 
 the URL of the servlet. For example, I can access the servlet by running the TomCat configuration and navigating to:
@@ -46,7 +46,7 @@ the URL of the servlet. For example, I can access the servlet by running the Tom
 'localhost.com:8080/login'
 ````
 
-![](screenshots/simple_example_3.png)
+![](screenshots/first_web_app_3.png)
 
 In the doGet method, add the following code:
 ````
@@ -59,19 +59,19 @@ ServletException, IOException {
 }
 ````
 
-![](screenshots/simple_example_7.png)
+![](screenshots/first_web_app_7.png)
 
 Run the TomCat configuration:
 
-![](screenshots/simple_example_4.png)
+![](screenshots/first_web_app_4.png)
 
 If a browser does not launch, open one and navigate to localhost:8080/<project_name>_war_exploded/login:
 
-![](screenshots/simple_example_5.png)
+![](screenshots/first_web_app_5.png)
 
 You will see the doGet() method you just edited:
 
-![](screenshots/simple_example_6.png)
+![](screenshots/first_web_app_6.png)
 
 You just created your first servlet! :boom:
 </details>
@@ -80,44 +80,44 @@ You just created your first servlet! :boom:
 
 Right click in the webapp directory to create a new JSP:
 
-![](screenshots/simple_example_8.png)
+![](screenshots/first_web_app_8.png)
 
 Enter a name for the JSP:
 
-![](screenshots/simple_example_9.png)
+![](screenshots/first_web_app_9.png)
 
 You have created your first JSP:
 
-![](screenshots/simple_example_10.png)
+![](screenshots/first_web_app_10.png)
 
 However, without a servlet to serve the JSP, it will not be accessible.
 
 In the login JSP you just created, write something (it does not matter what). Something in the body, so it is 
 visible when you navigate to the page:
 
-![](screenshots/simple_example_12.png)
+![](screenshots/first_web_app_12.png)
 
 Open the LoginServlet again and remove the code in the doGet() method and add the following:
 ````
 response.sendRedirect("login.jsp");
 ````
 
-![](screenshots/simple_example_14.png)
+![](screenshots/first_web_app_14.png)
 
 Run the TomCat configuration:
 
-![](screenshots/simple_example_4.png)
+![](screenshots/first_web_app_4.png)
 
 A browser window should automatically open. Navigate to:
 ````
 localhost:8080/<project_name>_war_exploded/login
 ````
 
-![](screenshots/simple_example_11.png)
+![](screenshots/first_web_app_11.png)
 
 The Login Servlet is now redirecting you to the login JSP you just created:
 
-![](screenshots/simple_example_13.png)
+![](screenshots/first_web_app_13.png)
 
 </details>
 <details>
@@ -142,18 +142,18 @@ PrintWriter writer = response.getWriter();
 writer.println("<h3> Hello from Get "+user+ " " +pass+ "</h3>");
 ````
 
-![](screenshots/simple_example_15.png)
+![](screenshots/first_web_app_15.png)
 
 As an example, navigate to:
 ````
 http://localhost:8080/<project_name>_war_exploded/login?userName=luke&passWord=test
 ````
 
-![](screenshots/simple_example_16.png)
+![](screenshots/first_web_app_16.png)
 
 The servlet will print the values you passed as parameters:
 
-![](screenshots/simple_example_17.png)
+![](screenshots/first_web_app_17.png)
 </details>
 <details>
 <summary>Using doPost() servlet method</summary>
@@ -167,7 +167,7 @@ Open index.jsp, remove the text in the body and add:
 </form>
 ````
 
-![](screenshots/simple_example_18.png)
+![](screenshots/first_web_app_18.png)
 
 Open the LoginServlet and add the below into the doPost() method:
 ````
@@ -180,38 +180,40 @@ writer.println("<h3> Hello from Post: Your user name is: "+user+", Your password
         "</h3>");
 ````
 
-![](screenshots/simple_example_19.png)
+![](screenshots/first_web_app_19.png)
 
 Run the TomCat configuration:
 
-![](screenshots/simple_example_4.png)
+![](screenshots/first_web_app_4.png)
 
 It should load the index.jsp by default:
 
-![](screenshots/simple_example_20.png)
+![](screenshots/first_web_app_20.png)
 
 Enter a username and password and select Login:
 
-![](screenshots/simple_example_21.png)
+![](screenshots/first_web_app_21.png)
 
 The index.jsp will post your username and password to the doGet() method of the LoginServlet, which, in turn, will print
 them to HTML:
 
-![](screenshots/simple_example_22.png)
+![](screenshots/first_web_app_22.png)
 </details>
 </details>
 
 <details>
-<summary>Connect to local PostgreSQL</summary>
+<summary>Create Connection with Local PostgreSQL</summary>
+
+> Make sure you launch pgAdmin and have the database instance running on your computer otherwise all queries will fail.
 
 You should have already connected to a local PostgreSQL instance.  
 To open the database view:
 
-![](screenshots/simple_example_23.png)
+![](screenshots/first_web_app_23.png)
 
 Open a query console:
 
-![](screenshots/simple_example_24.png)
+![](screenshots/first_web_app_24.png)
 
 Run the follow SQL query to create a new table for users:
 ````
@@ -223,43 +225,50 @@ CREATE TABLE users (
 
 It should return successfully, and you should now be able to see the new table in the database view:
 
-![](screenshots/simple_example_25.png)
+![](screenshots/first_web_app_25.png)
 
-Create a new Java file in (title it whatever you like):
+Run the following SQL query to create a test user:
+````
+INSERT INTO users(username, password) VALUES ('lrosa', 'test');
+````
 
-![](screenshots/simple_example_26.png)
+Create a new Java file and title it whatever you like:
 
-![](screenshots/simple_example_27.png)
+![](screenshots/first_web_app_26.png)
+
+![](screenshots/first_web_app_27.png)
 
 Copy this to the newly created file but make sure to change the database URL, user, and password to match your own:
 ````
-package com.example.test;
+import java.sql.*;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
 public class JDBCtest {
-    private final String url = <insert URL>;
-    private final String user = <insert user>;
-    private final String password = <insert password>;
-    /**
-     * Connect to the PostgreSQL database
-     * @return a Connection object
-     */
-    public Connection connect() {
-        Connection conn = null;
-        try {
-            conn = DriverManager.getConnection(url, user, password);
-            if (conn != null) {
-                System.out.println("Connected to the PostgreSQL server successfully.");
-            } else {
-                System.out.println("Failed to make connection!");
+        private final String url = <insert URL>;
+        private final String user = <insert user>;
+        private final String password = <insert password>;
+        /**
+         * Connect to the PostgreSQL database
+         * @return a Connection object
+         */
+        public void connect() {
+            String sql = "SELECT * FROM users;";
+            PreparedStatement findStatement = null;
+            ResultSet rs = null;
+            Connection conn = null;
+            try {
+                DriverManager.registerDriver(new org.postgresql.Driver());
+                conn = DriverManager.getConnection(url, user, password);
+                findStatement = conn.prepareStatement(sql);
+                findStatement.execute();
+                rs = findStatement.getResultSet();
+                rs.next();
+                String username = rs.getString(1);
+                System.out.println(username);
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-        return conn;
     }
+
     public static void main(String[] args) {
         JDBCtest app = new JDBCtest();
         app.connect();
@@ -267,22 +276,21 @@ public class JDBCtest {
 }
 ````
 
-![](screenshots/simple_example_28.png)
+![](screenshots/first_web_app_28.png)
 
-> Make sure you launch pgAdmin and have the database instance running on your computer otherwise all queries will fail.
+Select Run:
 
-Seelct Run:
+![](screenshots/first_web_app_29.png)
 
-![](screenshots/simple_example_29.png)
-
-![](screenshots/simple_example_30.png)
+![](screenshots/first_web_app_30.png)
 
 It will take a few seconds to run but then should return a successful query:
 
-![](screenshots/simple_example_31.png)
+![](screenshots/first_web_app_31.png)
 
-You have now created a table in your local PostgreSQL instance and have created a connection to it.
-You can now build on queries on top of this.
+You have now created a table in your local PostgreSQL instance, created a connection to it and queried data stored in 
+the users table.
+You can now build queries on top of this.
 </details>
 
 <details>
