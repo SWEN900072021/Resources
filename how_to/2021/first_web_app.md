@@ -218,6 +218,7 @@ Run the follow SQL query to create a new table for users:
 CREATE TABLE users (
     username    text,
     password text
+);
 ````
 
 It should return successfully, and you should now be able to see the new table in the database view:
