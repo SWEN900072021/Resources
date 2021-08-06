@@ -23,7 +23,7 @@ does not have correct permissions to run the file (this occurs when you use a .z
 > Menu for easily starting and stopping Tomcat server whenever required.  
 > 
 > Simply use Command Prompt to start and stop Tomcat server in other way.  
-> C:\Users\oliveirae\apache-tomcat-9.0.50\bin>startup.bat 
+> C:\Users\oliveirae\apache-tomcat-9.0.50\bin>startup.bat  
 > C:\Users\oliveirae\apache-tomcat-9.0.50\bin>shutdown.bat 
 > 
 > *Testing Tomcat Installation*  
