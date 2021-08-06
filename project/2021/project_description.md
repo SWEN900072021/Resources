@@ -98,7 +98,7 @@ The password to access the survey is SWEN90007\_2021.
 ## Use of Code Repositories and Collaborative Tools
 
 For this project, we will adopt GitHub Classroom. Your team will be created by the teaching team and will be available
-here:[view](https://github.com/SWEN900072021) (you’ll be able to access this space once you receive our invitation in 
+here: [view](https://github.com/SWEN900072021) (you’ll be able to access this space once you receive our invitation in 
 Week 2). After that, you’ll be able to create your private repositories. **Your repository must be kept as private**.
 
 Once your team and repository are created, we strongly encourage you to explore the Discussions and the Projects tab 
@@ -147,7 +147,7 @@ are  continuous  assessments  focused  on  communication,  teamwork,  engagement
 that everyone can contribute equally to group work. The peer assessment form will give us (teaching team) an indication 
 when this is not the case.
 
-## Teamwork during Workshops
+## Teamwork During Workshops
 
 Workshops will be mostly dedicated for project teamwork. You are encouraged to think of this time as your team’s weekly 
 meeting. You can use the time to plan activities for the week ahead, work collaboratively on a task, discuss any issues 
@@ -181,7 +181,7 @@ Deliverables:
   high-level description of the use case [Appendix E – Simplified use cases](#appendix-e--simplified-use-cases).
 - A domain model with an explanation of it (description for domain model).
 - A Git release tag: you must create a release tag in your Git repository for this deliverable in  the  following  
-  format:  SWEN90007\_2021\_Part1\_<team  name>[^1].  The  tag  must  be created before the submission deadline as this 
+  format:  SWEN90007\_2021\_Part1\_\<team_name><sup>1</sup>.  The  tag  must  be created before the submission deadline as this 
   will be used to assess your deliverable (no exceptions). The created release tag must be added to your report.
 - This report must be available in your GitHub (docs/part1).
 - Part1 checklist [(Appendix A – Checklist for Part 1 Deliverable](#appendix-a--checklist-for-part-1-deliverable) must be submitted to Canvas 
@@ -195,7 +195,7 @@ At this stage, you will assume that there is a single user in your application. 
 considering the patterns you need to include in your design and implementation.
 
 You  must  include  the  following  patterns  in  your  design  and  implementation 
-(see [Appendix  F  – Expanded use cases](#appendix-f--expanded-use-cases) and 
+(see [Appendix  F  – Expanded Use Cases](#appendix-f--expanded-use-cases) and 
 [Appendix G – Architecture Document](#appendix-g--architecture-document) for more details):
 - Domain model
 - Data mapper
@@ -299,7 +299,7 @@ In your report, you are required to provide a meaningful discussion of system pe
 Deliverables:
 
 1. You must create a tag in your Git repository for this deliverable in the following format: 
-   SWEN90007\_2021\_Part4\_<team  name>. The tag must  be  created  before the  submission deadline as this will be 
+   SWEN90007\_2021\_Part4\_\<team_name>. The tag must  be  created  before the  submission deadline as this will be 
    used to assess your deliverable (no exceptions). After creating the release tag, you deploy this tag (not your main 
    repository branch).
 2. A report with the following items:
@@ -341,8 +341,8 @@ For further details please see the ask Unimelb site: [view](https://ask.unimelb.
 
 ## Late Submissions
 
-Unless an extension is in place, a 10% penalty will be applied to every day you delay your submission (Checklist, 
-RELEASE TAG and/or Deployment).
+Unless an extension is in place, a 10% penalty will be applied to every day you delay your submission (checklist, 
+RELEASE TAG, and/or deployment).
 
 Example: Part 2 - Deadline September 27, 9AM
 
@@ -477,21 +477,21 @@ Delivered:
 - [ ] Performance discussion
 > Additional comments (optional):
 
-## Appendix E – Simplified use cases
+## Appendix E – Simplified Use Cases
 
 You can create new documents and/or templates to document your project. For your convenience, we provide a sample 
 template on Canvas. You can modify and use that document as much as needed. Again, the use of sample templates we share 
 on Canvas is not mandatory and you are welcomed to come up with your own ideas/documents/templates.
 
-Template Available on Canvas: [view](https://canvas.lms.unimelb.edu.au/courses/106775/pages/simplified-use-case-template-project-part-1?module_item_id=3093441)
+Available here: [Part 1: Simplified Use Cases Template](templates/part_1_use_cases.doc)
 
-## Appendix F – Expanded use cases
+## Appendix F – Expanded Use Cases
 
 You can create new documents and/or templates to document your project. For your convenience, we provide a sample 
 template on Canvas. You can modify and use that document as much as needed. Again, the use of sample templates we share 
 on Canvas is not mandatory and you are welcomed to come up with your own ideas/documents/templates.
 
-Available on Canvas: [view](https://canvas.lms.unimelb.edu.au/courses/106775/pages/detailed-use-case-template-project-part-2?module_item_id=3065664)
+Available here: [Part 2: Expanded Use Cases Template](templates/part_2_use_cases.doc)
 
 ## Appendix G – Architecture Document
 
@@ -499,7 +499,7 @@ You can create new documents and/or templates to document your project. For your
 template on Canvas. You can modify and use that document as much as needed. Again, the use of sample templates we 
 share on Canvas is not mandatory and you are welcomed to come up with your own ideas/documents/templates.
 
-Available on Canvas: [view](https://canvas.lms.unimelb.edu.au/courses/106775/pages/architecture-document-project-part-2-and-part-3)
+Available here: [Parts 2 and 3: Architecture Template](templates/part_2_and_3_arch.docx)
 
 ## Appendix H – Test Cases and Data Entry Document
 
@@ -507,6 +507,6 @@ You can create new documents and/or templates to document your project. For your
 template on Canvas. You can modify and use that document as much as needed. Again, the use of sample templates we 
 share on Canvas is not mandatory and you are welcomed to come up with your own ideas/documents/templates.
 
-Available on Canvas: [view](https://canvas.lms.unimelb.edu.au/courses/106775/pages/test-cases-and-data-entry-project-part-2-and-part-3?module_item_id=3065666)
+Available here: [Parts 2 and 3: Testing Template](templates/part_2_and_3_test.doc)
 
 <sup>1</sup>: [Git Basics – Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
