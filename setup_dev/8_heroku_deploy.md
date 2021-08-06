@@ -390,7 +390,7 @@ see thousands of other databases managed by Heroku. Select Save:
 
 ![](screenshots/8_heroku_deploy_35.png)
 
-In order to test the connection, select the newly connect database and right-click on Tables and select Query Tool:
+In order to test the connection, select the newly connected database and right-click on Tables and select Query Tool:
 
 ![](screenshots/8_heroku_deploy_36.png)
 
