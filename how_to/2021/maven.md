@@ -262,7 +262,7 @@ The dependency listed is copied as a JAR from the central Maven repository into 
 The central Maven repository is: [view](https://search.maven.org).  
 You can use this central repository to search for dependencies that can then be specified in your project's POM file.
 
-#### Adding a New Dependency to IntelliJ
+#### Adding a New Dependency in IntelliJ
 
 Open your project in IntelliJ and select Code from the menu. Then select Generate:
 
