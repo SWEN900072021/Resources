@@ -11,7 +11,7 @@
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Packaging](#packaging)
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [WAR Packaging Goals](#war-packaging-goals)
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Dependencies](#dependencies)
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Adding a New Dependency to IntelliJ](#adding-a-new-dependency-to-intellij)
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Adding a New Dependency in IntelliJ](#adding-a-new-dependency-in-intellij)
 #### 5. [Maven Commands](#maven-commands)
 #### 6. [References](#references)
 
