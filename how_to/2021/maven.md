@@ -12,7 +12,7 @@
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [WAR Packaging Goals](#war-packaging-goals)
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Dependencies](#dependencies)
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Adding a New Dependency in IntelliJ](#adding-a-new-dependency-in-intellij)
-#### 5. [Maven Commands](#maven-commands)
+#### 5. [Maven Compile](#maven-compile)
 #### 6. [References](#references)
 
 ### Introduction
@@ -283,7 +283,7 @@ Once you add the dependency, right-click on a project folder and select Reload P
 
 > It's that easy!
 
-### Maven Commands
+### Maven Compile
 
 When you build a project, the project is compiled and a ````target```` directory is created; the target directory is 
 used to house all output of the build.
