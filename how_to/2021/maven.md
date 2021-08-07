@@ -16,14 +16,23 @@
 #### 5. [Maven Commands](#maven-commands)
 #### 6. [References](#references)
 
+<u> 
+
 ### Introduction
+
+</u>
 
 In the project, you will make use of Apache Maven.
 
 Maven is a tool that is used for building and managing any Java-based project.
 It is a standard way to build projects and provides a clear definition of what the project consists of.
 
+
+<u>
+
 ### Why Maven is Used
+
+</u>
 
 When developing an application, we face a number of challenges:
 
@@ -40,7 +49,11 @@ Maven solves all of these problems, it:
 
 In doing so, it automates project builds and saves a countless amount of time.
 
+<u>
+
 ### Maven Project Structure
+
+</u>
 
 Maven projects all have a common project structure. Having a common directory layout allows users familiar with one Maven project to immediately feel at home in another 
 Maven project.
@@ -71,7 +84,11 @@ The src directory contains all the source material for building the project, its
 subdirectory for each type: main for the main build artifact, resources for images or other resources, text for unit 
 tests, and webapp for the site.
 
+<u>
+
 ### POM File
+
+</u>
 
 All Maven projects contain a project object model (POM) file - it is a one-stop-shop for all things concerning the 
 project.
@@ -141,27 +158,44 @@ A project's POM file does not need to define all of these elements. At a bare mi
 </project>
 ````
 
+<u>
+
 #### Group ID
+
+</u>
 
 The ````groupId```` is unique amongst an organisation or a project.
 
 It defines where your project lives in the local Maven repository. For example, the project above has a ````groupId```` 
 of ````org.codehaus.mojo```` and so is accessible at ````.m2/repository/org/codehaus/mojo````.
 
+<u>
+
 #### Artifact ID
+
+</u>
 
 ````artifactId```` is the name the project is known by.  
 In addition, it further specifies where the project resides in the Maven repository. For example, the project above has an
 ````artifactId```` of ````my-project```` - this means the project resides in 
 ````.m2/repository/org/codehaus/mojo/my-project````.
 
+<u>
+
 #### Version
+
+</u>
+
 The ````version```` number allows users to delineate versions of the same project. After each release, you might like to 
 iterate the ````version```` of your project allowing developers to know which project you are referring to.  
 Additionally, the ````version```` fully specifies the path to the project in the Maven repository. For example, the 
 above project is ````version```` 1.0 and so resides in ````.m2/repository/org/codehaus/mojo/my-project/1.0````.
 
+<u>
+
 #### Packaging
+
+</u>
 
 If you have created the web application using IntelliJ, the POM file will specify war packaging. Where no packaging is
 specified, Maven assumes JAR packaging.
@@ -190,7 +224,11 @@ internal structure that must be followed).
 Specifying the correct packaging is important as it defines the default list of goals which execute on each 
 corresponding build lifecycle stage for a particular package structure. For example, the goals on WAR packaging are:
 
+<u>
+
 ##### WAR Packaging Goals
+
+</u>
 
 ````
 <phases>
@@ -231,7 +269,11 @@ A brief explanation of each goal:
 - ````deploy```` - done in the build environment, copies the final package to the remote repository for sharing with 
   other developers and projects.
 
+<u>
+
 #### Dependencies
+
+</u>
 
 Dependency management is a core feature of Maven. The dependency management section is a mechanism for centralising 
 dependency information.
@@ -262,7 +304,11 @@ The dependency listed is copied as a JAR from the central Maven repository into 
 The central Maven repository is: [view](https://search.maven.org).  
 You can use this central repository to search for dependencies that can then be specified in your project's POM file.
 
+<u>
+
 #### Adding a New Dependency to IntelliJ
+
+</u>
 
 Open your project in IntelliJ and select Code from the menu. Then select Generate:
 
@@ -283,7 +329,11 @@ Once you add the dependency, right-click on a project folder and select Reload P
 
 > It's that easy!
 
+<u>
+
 ### Maven Commands
+
+</u>
 
 When you build a project, the project is compiled and a ````target```` directory is created; the target directory is 
 used to house all output of the build.
@@ -315,6 +365,11 @@ used to house all output of the build.
 The ````target/<artifactId>-<version>-SNAPSHOT.war```` file created contains all the necessary resources to run the project (as discussed above). When you 
 execute run in TomCat (or push to Heroku), the WAR file is exploded.
 
+<u>
+
 ### References
+
+</u>
+
 1. [What is Maven](https://maven.apache.org/what-is-maven.html)
 2. [POM basics](https://maven.apache.org/pom.html)
