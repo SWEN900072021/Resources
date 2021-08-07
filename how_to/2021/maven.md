@@ -316,6 +316,5 @@ The ````target/<artifactId>-<version>-SNAPSHOT.war```` file created contains all
 execute run in TomCat (or push to Heroku), the WAR file is exploded.
 
 ### References
-[What is Maven](https://maven.apache.org/what-is-maven.html)
-
-[POM basics](https://maven.apache.org/pom.html)
+1. [What is Maven](https://maven.apache.org/what-is-maven.html)
+2. [POM basics](https://maven.apache.org/pom.html)
