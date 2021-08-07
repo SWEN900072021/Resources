@@ -41,8 +41,8 @@ In doing so, it automates project builds and saves a countless amount of time.
 
 ### Maven Project Structure
 
-Maven projects all have a common project structure. Having a common directory layout allows users familiar with one Maven project to immediately feel at home in another 
-Maven project.
+Maven projects all have a common project structure. Having a common directory layout allows users familiar with one 
+Maven project to immediately feel at home in another Maven project.
 
 A Maven's project structure looks like this:
 ````
@@ -150,8 +150,8 @@ of ````org.codehaus.mojo```` and so is accessible at ````.m2/repository/org/code
 #### Artifact ID
 
 ````artifactId```` is the name the project is known by.  
-In addition, it further specifies where the project resides in the Maven repository. For example, the project above has an
-````artifactId```` of ````my-project```` - this means the project resides in 
+In addition, it further specifies where the project resides in the Maven repository. For example, the project above has 
+an ````artifactId```` of ````my-project```` - this means the project resides in
 ````.m2/repository/org/codehaus/mojo/my-project````.
 
 #### Version
@@ -163,11 +163,7 @@ above project is ````version```` 1.0 and so resides in ````.m2/repository/org/co
 
 #### Packaging
 
-If you have created the web application using IntelliJ, the POM file will specify war packaging. Where no packaging is
-specified, Maven assumes JAR packaging.
-
-For this project, you will specify WAR packaging.
-
+If you have created the web application using IntelliJ, the POM file will specify WAR packaging.
 WAR (Web Application Resource) files are used to package web applications to deploy them to servlets.
 WAR files have a pre-defined structure that must be followed:
 ````
@@ -249,18 +245,19 @@ For example, in the project we have specified a PostgreSQL dependency:
 ````
 
 Maven downloads and links the dependencies on compilation, as well as on other goals that require them. As an added 
-bonus, Maven brings in the dependencies of those dependencies (transitive dependencies), allowing your list to focus solely on the dependencies your project requires.
+bonus, Maven brings in the dependencies of those dependencies (transitive dependencies), allowing your list to focus 
+solely on the dependencies your project requires.
 
-The dependency listed is copied as a JAR from the central Maven repository into your computer's local Maven repository.
+The dependencies in the POM file are copied as JARs from the central Maven repository into your computer's local 
+Maven repository.
 
 > The Maven repository in most instances is created as a hidden directory on your computer. You should never need to
 > access it.  
-> **If you are on a Linux machine**, open a file explorer window, and hold ````shift```` + ````command```` +
-> ````full stop```` to display hidden files and folders.  
-> The usual directory is /<home_directory>/.m2
+> **If you are on a Linux machine** and did want to access the local Maven repository, open a file explorer window, 
+> and hold ````shift```` + ````command```` + ````full stop```` to display hidden files and folders.  
+> Then navigate to the Maven repository, which usually resides at: /<home_directory>/.m2
 
-The central Maven repository is: [view](https://search.maven.org).  
-You can use this central repository to search for dependencies that can then be specified in your project's POM file.
+The central Maven repository, which you can use to search for Maven dependencies is: [view](https://search.maven.org).  
 
 #### Adding a New Dependency in IntelliJ
 
