@@ -4,9 +4,9 @@
 
 - [Goals](#goals)
 - [Documentation](#documentation)
-- [What's included](#whats-included)
+- [What's Included](#whats-included)
 - [Canvas](#canvas)
-- [Copyright and license](#copyright-and-license)
+- [Copyright and License](#copyright-and-license)
 
 ## Goals
 
