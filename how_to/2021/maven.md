@@ -266,7 +266,7 @@ There are 2 ways you can install Maven dependencies in IntelliJ.
 <details>
 <summary>1. Install via IntelliJ Template</summary>
 
-> Use this method if you know the ````artifactId```` and ````version```` you wish to use.
+> Use this method if you know the ````artifactId````, groupId, and ````version```` of the dependency you wish to use.
 
 Open your project in IntelliJ and select Code from the menu. Then select Generate:
 
