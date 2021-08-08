@@ -35,9 +35,11 @@ Within this repo download you'll find the following directories and files, logic
 │   │   ├── set_enviroment.pdf
 │   │   └── setup_DB.pdf
 │   ├── 2021
-│   │   ├── first_web_app.md
 │   │   ├── screenshots
-│   │   └── tools_and_plugins.md
+│   │   ├── first_web_app.md
+│   │   ├── maven.md
+│   │   ├── tools_and_plugins.md
+│   │   └── README.md
 │   └── README.md
 ├── project
 │   ├── 2020
