@@ -38,8 +38,8 @@ Within this repo download you'll find the following directories and files, logic
 │   │   ├── screenshots
 │   │   ├── first_web_app.md
 │   │   ├── maven.md
-│   │   ├── tools_and_plugins.md
-│   │   └── README.md
+│   │   ├── README.md
+│   │   └── tools_and_plugins.md
 │   └── README.md
 ├── project
 │   ├── 2020
