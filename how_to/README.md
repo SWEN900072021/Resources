@@ -12,9 +12,10 @@ A number of guides have been created to assist you with project work this semest
 │ ├── set_enviroment.pdf
 │ └── setup_DB.pdf
 ├── 2021
-│ ├── first_web_app.md
 │ ├── screenshots
+│ ├── first_web_app.md
+│ ├── maven.md
+│ ├── README.md
 │ └── tools_and_plugins.md
 ├── README.md
 ````
-

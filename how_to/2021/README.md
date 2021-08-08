@@ -6,8 +6,9 @@ help you develop your first web application.
 ## What's Included
 ````
 ├── first_web_app.md
-├── tools_and_plugins.md
-└── README.md
+├── maven.md
+├── README.md
+└── tools_and_plugins.md
 ````
 
 ### [First Web Application](first_web_app.md)
@@ -15,6 +16,11 @@ help you develop your first web application.
 This guide gives you an overview of the tools you will use during development (TomCat, Heroku, Maven, etc.). It also provides 
 a walk-through guide to creating your first Servlet and JSP, passing parameters between Servlets and JSPs, and querying
 your application's database.
+
+### [Introduction to Maven](maven.md)
+
+This guide gives you an overview of the build tool we will use this semester - Maven. It introduces Maven and how it
+specifies projects using the POM file, as well as how to add dependencies in your project.
 
 ## [Tools and Plugins](tools_and_plugins.md)
 
