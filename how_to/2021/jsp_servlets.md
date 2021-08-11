@@ -37,7 +37,7 @@ There are two main HTTP methods you will make use of during the semester: GET an
    - GET requests have length restrictions, and
    - GET requests are only used to request data (not modify).
 2. The POST method is used to send form data and request a resource from the server. The data sent is stored in the body 
-of a HTTP request:
+of an HTTP request:
    ````
    POST /test/demo_form.jsp HTTP/1.1
    Host: unimelb.com
@@ -51,15 +51,15 @@ of a HTTP request:
     
 ### Servlets
 
-A servlet is used to implement web applications and is simply a class which responds to a HTTP request.
+A servlet is used to implement web applications and is simply a class which responds to an HTTP request.
 Servlets provide a low-level API for receiving and responding to HTTP requests - in this subject you will be using 
 servlets to receive and write HTTP requests and responses.  
 There are many frameworks built as a higher-level abstraction of servlets (for example, Spring, Apache Struts, etc.) 
-that remove the necesiity to manually write and respond to HTTP requests, however, you are not permitted to use these 
+that remove the necessity to manually write and respond to HTTP requests, however, you are not permitted to use these 
 frameworks in this subject. This subject will teach you the building blocks of modern Java web applications.
 
-Servlets run in a servlet container which handles the networking side (e.g. parsing an HTTP request, connection handling
-etc). See [TomCat](#tomcat).
+Servlets run in a servlet container which handles the networking side (for example, parsing an HTTP request, connection 
+handling, etc.). See [TomCat](#tomcat).
 
 ### Java Server Pages
 
@@ -112,7 +112,7 @@ Apache TomCat, as a container, handles a number of issues for you:
    speak to the server.
 2. Lifecycle management - The container controls the life and death of your servlets. It loads classes, instantiates 
    servlets, knows which servlet method to call, and handles garbage collection, so you don't have to worry as much about 
-   ]managing resources.
+   managing resources.
 3. JSP support - The container translates JSP code into Java.
 
 ### MVC Pattern
@@ -149,12 +149,12 @@ To avoid both of these issues, you will make use of JSPs - Java introduced into 
 <body>
 <h1>Test page</h1>
 <br>
-<%= new.Java.util.Data() %>
+<%= new java.util.Date() %>
 </body>
 </html>
 ````
 Try adding this into your JSP to see how you can introduce Java into your HTML pages using JSPs.
 
-### References
+### Resources
 
 1. Head First JSPs and Servlet by Kathy Sierra
