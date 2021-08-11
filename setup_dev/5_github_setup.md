@@ -8,7 +8,7 @@ plagiarising).
 Once you have created a repository, open a terminal window. Navigate into the project you created in step 3.
 
 Get the web URL of the repository you have created:
-![](screenshots/5_github_setup_1.png)
+![](resources/5_github_setup_1.png)
 
 Change "demo" to be whatever you named your repository:
 ````

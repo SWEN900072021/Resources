@@ -6,6 +6,7 @@ help you develop your first web application.
 ## What's Included
 ````
 ├── first_web_app.md
+├── jsp_servlets.md
 ├── maven.md
 ├── README.md
 └── tools_and_plugins.md
@@ -16,6 +17,11 @@ help you develop your first web application.
 This guide gives you an overview of the tools you will use during development (TomCat, Heroku, Maven, etc.). It also provides 
 a walk-through guide to creating your first Servlet and JSP, passing parameters between Servlets and JSPs, and querying
 your application's database.
+
+### [JSPs and Servlets](jsp_servlets.md)
+
+In this subject, you will create an application using Java Server Pages (JSPs) and Servlets. This guide will provide 
+you an overview of both.
 
 ### [Introduction to Maven](maven.md)
 

@@ -9,74 +9,74 @@ Follow these steps to clone the repository to a folder on your computer: [view i
 
 Once you have cloned the repository, launch IntelliJ and select Open:
 
-![](screenshots/6_github_clone_1.png)
+![](resources/6_github_clone_1.png)
 
 Select the folder you have just cloned from the GitHub repository:
 
-![](screenshots/6_github_clone_2.png)
+![](resources/6_github_clone_2.png)
 
 You may be prompted if you want IntelliJ to trust this Maven project, select Trust Project:
 
-![](screenshots/6_github_clone_3.png)
+![](resources/6_github_clone_3.png)
 
 Now select Add Configuration:
 
-![](screenshots/6_github_clone_4.png)
+![](resources/6_github_clone_4.png)
 
 Add a new TomCat local configuration:
 
-![](screenshots/6_github_clone_5.png)
+![](resources/6_github_clone_5.png)
 
 Select Configure (Application Server may or may not already be populated - ignore it):
 
-![](screenshots/6_github_clone_6.png)
+![](resources/6_github_clone_6.png)
 
 Select the Open icon:
 
-![](screenshots/6_github_clone_7.png)
+![](resources/6_github_clone_7.png)
 
 Select the folder where you unzipped the TomCat directory in [Step 2: Download Tomcat](2_tomcat_download.md):
 
-![](screenshots/6_github_clone_8.png)
+![](resources/6_github_clone_8.png)
 
 Select OK:
-![](screenshots/6_github_clone_9.png)
+![](resources/6_github_clone_9.png)
 
 Select Deployment:
 
-![](screenshots/6_github_clone_10.png)
+![](resources/6_github_clone_10.png)
 
 Select the Add icon:
 
-![](screenshots/6_github_clone_11.png)
+![](resources/6_github_clone_11.png)
 
 Select Artifact:
 
-![](screenshots/6_github_clone_12.png)
+![](resources/6_github_clone_12.png)
 
 Select demo:war exploded:
 
-![](screenshots/6_github_clone_13.png)
+![](resources/6_github_clone_13.png)
 > *A Web application can be deployed to the TomCat server as an exploded directory where files and folders are presented 
 in the file system as separate items. A WAR file is a Web Archive file. An exploded WAR file means the structure is the 
 exact same as an archive file but not zipped into an archive form.*
 
 Select Apply then OK:
 
-![](screenshots/6_github_clone_14.png)
+![](resources/6_github_clone_14.png)
 
 To test the artifact is being deployed to the server correctly, select Add Configuration then select the newly created 
 TomCat configuration:
 
-![](screenshots/6_github_clone_15.png)
+![](resources/6_github_clone_15.png)
 
 Select Run:
 
-![](screenshots/6_github_clone_16.png)
+![](resources/6_github_clone_16.png)
 
 The program is now deployed to localhost:
 
-![](screenshots/6_github_clone_17.png)
+![](resources/6_github_clone_17.png)
 
 ---
 

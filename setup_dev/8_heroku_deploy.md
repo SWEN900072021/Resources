@@ -6,37 +6,37 @@
 
 Open the project in IntelliJ and right-click on the project outermost folder and select New -> File:
 
-![](screenshots/8_heroku_deploy_10.png)
+![](resources/8_heroku_deploy_10.png)
 
 Title the file 'system.properties':
 
-![](screenshots/8_heroku_deploy_11.png)
+![](resources/8_heroku_deploy_11.png)
 
 Enter the following into the file and save it:
 ````
 java.runtime.version=11
 ````
 
-![](screenshots/8_heroku_deploy_12.png)
+![](resources/8_heroku_deploy_12.png)
 
 Once again, right-click on the project outermost folder and select New -> File:
 
-![](screenshots/8_heroku_deploy_10.png)
+![](resources/8_heroku_deploy_10.png)
 
 Title the new file 'Procfile':
 
-![](screenshots/8_heroku_deploy_13.png)
+![](resources/8_heroku_deploy_13.png)
 
 If it prompts you to register file type association, select the first option and press OK:
 
-![](screenshots/8_heroku_deploy_14.png)
+![](resources/8_heroku_deploy_14.png)
 
 In the file, enter:
 ````
 web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar $WEBAPP_RUNNER_OPTS --port $PORT target/demo-1.0-SNAPSHOT.war
 ````
 
-![](screenshots/8_heroku_deploy_15.png)
+![](resources/8_heroku_deploy_15.png)
 
 ---
 
@@ -63,11 +63,11 @@ First create a Heroku account [here](https://www.heroku.com). ***Only one team m
 
 Select Create New Application:
 
-![](screenshots/8_heroku_deploy_8.png)
+![](resources/8_heroku_deploy_8.png)
 
 Enter an application name and select Create App:
 
-![](screenshots/8_heroku_deploy_9.png)
+![](resources/8_heroku_deploy_9.png)
 
 Update the pom.xml file to add the Heroku webapp-runner dependency:
 ````
@@ -159,36 +159,36 @@ The full file is below for ease. You *should not* paste the entire file as it wi
 
 Login to Heroku and select the Application:
 
-![](screenshots/8_heroku_deploy_16.png)
+![](resources/8_heroku_deploy_16.png)
 
 Select Deploy:
 
-![](screenshots/8_heroku_deploy_17.png)
+![](resources/8_heroku_deploy_17.png)
 
 Select Connect to GitHub and follow the prompts:
 
-![](screenshots/8_heroku_deploy_20.png)
+![](resources/8_heroku_deploy_20.png)
 
 Once connected, select drop-down menu and choose the GitHub Classroom SWEN900072021:
 
-![](screenshots/8_heroku_deploy_39.png)
+![](resources/8_heroku_deploy_39.png)
 
 > You must be Admin of the project repository in order for Heroku to be able to connect to it.
 
 Select Search. Once Heroku finds the repository, select Connect:
 
-![](screenshots/8_heroku_deploy_18.png)
+![](resources/8_heroku_deploy_18.png)
 
-![](screenshots/8_heroku_deploy_19.png)
+![](resources/8_heroku_deploy_19.png)
 
 Follow the prompts to enable automatic deployment and select a branch you wish to deploy *(this is up to your team to
 decide)*:
 
-![](screenshots/8_heroku_deploy_23.png)
+![](resources/8_heroku_deploy_23.png)
 
 It will take up a minute or two to build, but once done, select View to view your application:
 
-![](screenshots/8_heroku_deploy_24.png)
+![](resources/8_heroku_deploy_24.png)
 
 > Now the code on the branch selected will be deployed to Heroku.
 
@@ -288,7 +288,7 @@ heroku create
 ````
 This will create the application on Heroku:
     
-![](screenshots/8_heroku_deploy_1.png)
+![](resources/8_heroku_deploy_1.png)
 > *You can rename the application (and change the URL) by logging into Heroku and going to settings.*
 
 To deploy it to the URL above, enter the following into terminal:
@@ -297,7 +297,7 @@ mvn clean heroku:deploy-war
 ````
 It will take a few minutes to build:
 
-![](screenshots/8_heroku_deploy_2.png)
+![](resources/8_heroku_deploy_2.png)
 Now you can go to the URL above, and your project will be deployed.
 
 > Each time you want to deploy to Heroku, you need to run these same commands.
@@ -307,26 +307,26 @@ with only one click. ***This is entirely optional.***
 
 Open the project in IntelliJ and select Add Configuration:
 
-![](screenshots/8_heroku_deploy_3.png)
+![](resources/8_heroku_deploy_3.png)
 
 Select the icon for Add and then scroll down and select Maven:
 
-![](screenshots/8_heroku_deploy_4.png)
+![](resources/8_heroku_deploy_4.png)
 
 Enter the following into the Command Line:
 ````
 heroku:deploy-war
 ````
 
-![](screenshots/8_heroku_deploy_5.png)
+![](resources/8_heroku_deploy_5.png)
 
 Select Run:
 
-![](screenshots/8_heroku_deploy_6.png)
+![](resources/8_heroku_deploy_6.png)
 
 It will take a few minutes to build, but once done, the application will be viewable at the URL:
 
-![](screenshots/8_heroku_deploy_7.png)
+![](resources/8_heroku_deploy_7.png)
 
 Now everytime you make changes and want to deploy, you can select Run Configuration.
 </details>
@@ -349,57 +349,57 @@ instance.
 
 Log into Heroku and select the application. Then select Resources:
 
-![](screenshots/8_heroku_deploy_25.png)
+![](resources/8_heroku_deploy_25.png)
 
 Search and select Heroku PostgreSQL:
 
-![](screenshots/8_heroku_deploy_26.png)
+![](resources/8_heroku_deploy_26.png)
 
 Select Submit Order Form (make sure you have selected the free hobby-development database):
 
-![](screenshots/8_heroku_deploy_27.png)
+![](resources/8_heroku_deploy_27.png)
 
 Once it has been added on to the application, launch Heroku Postgres
 
-![](screenshots/8_heroku_deploy_28.png)
+![](resources/8_heroku_deploy_28.png)
 
 Select Settings:
 
-![](screenshots/8_heroku_deploy_29.png)
+![](resources/8_heroku_deploy_29.png)
 
 Select View Credentials:
 
-![](screenshots/8_heroku_deploy_30.png)
+![](resources/8_heroku_deploy_30.png)
 
 Launch pgAdmin on your computer. Right-click the server and select Create -> Server:
 
-![](screenshots/8_heroku_deploy_31.png)
+![](resources/8_heroku_deploy_31.png)
 
 In the pop-up dialog box, enter a name (it does not matter what you choose):
 
-![](screenshots/8_heroku_deploy_32.png)
+![](resources/8_heroku_deploy_32.png)
 
 Select the Connection tab and enter the credentials provided by Heroku: 
 
-![](screenshots/8_heroku_deploy_34.png)
+![](resources/8_heroku_deploy_34.png)
 
-![](screenshots/8_heroku_deploy_33.png)
+![](resources/8_heroku_deploy_33.png)
 
 Select the Advanced tab and enter the name of the database in the DB Restriction field. If you do not do this, you will 
 see thousands of other databases managed by Heroku. Select Save:
 
-![](screenshots/8_heroku_deploy_35.png)
+![](resources/8_heroku_deploy_35.png)
 
 In order to test the connection, select the newly connected database and right-click on Tables and select Query Tool:
 
-![](screenshots/8_heroku_deploy_36.png)
+![](resources/8_heroku_deploy_36.png)
 
 Enter a random SQL query and click the Run icon:
 
-![](screenshots/8_heroku_deploy_37.png)
+![](resources/8_heroku_deploy_37.png)
 
 It should return a successful query, and the table should now be visible once you refresh:
 
-![](screenshots/8_heroku_deploy_38.png)
+![](resources/8_heroku_deploy_38.png)
 
 ---

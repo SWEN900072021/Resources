@@ -98,39 +98,39 @@ The full file is below for ease. You *should not* paste the entire file as it wi
 
 To connect the project to the local instance of PostgreSQL, open the Database view:
 
-![](screenshots/7_connect_intellij_postgresql_1.png)
+![](resources/7_connect_intellij_postgresql_1.png)
 
 Select 'New':
 
-![](screenshots/7_connect_intellij_postgresql_2.png)
+![](resources/7_connect_intellij_postgresql_2.png)
 
 Select 'PostgreSQL':
 
-![](screenshots/7_connect_intellij_postgresql_3.png)
+![](resources/7_connect_intellij_postgresql_3.png)
 
 Enter the details of your local PostgreSQL instance:
 
-![](screenshots/7_connect_intellij_postgresql_4.png)
+![](resources/7_connect_intellij_postgresql_4.png)
 
 Select 'Test Connection' to test the details you entered are correct:
 
-![](screenshots/7_connect_intellij_postgresql_5.png)
+![](resources/7_connect_intellij_postgresql_5.png)
 
 Select 'OK':
 
-![](screenshots/7_connect_intellij_postgresql_6.png)
+![](resources/7_connect_intellij_postgresql_6.png)
 
 The console will open. Run an SQL query to make sure the database has been connected successfully. Enter any query and select 'Run':
 
-![](screenshots/7_connect_intellij_postgresql_7.png)
+![](resources/7_connect_intellij_postgresql_7.png)
 
 If successful, there will be a tick next to the SQL query, and it will display the query in the console:
 
-![](screenshots/7_connect_intellij_postgresql_8.png)
+![](resources/7_connect_intellij_postgresql_8.png)
 
 The newly created table should be viewable in pgAdmin:
 
-![](screenshots/7_connect_intellij_postgresql_9.png)
+![](resources/7_connect_intellij_postgresql_9.png)
 
 ---
 
