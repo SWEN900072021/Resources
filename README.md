@@ -73,8 +73,6 @@ Within this repo download you'll find the following directories and files, logic
 Canvas <https://canvas.lms.unimelb.edu.au/courses/106775>
 
 
-## Copyright and License
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
