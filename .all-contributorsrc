@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "agogear",
+      "name": "Eduardo Oliveira",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4740218?v=4",
+      "profile": "http://www.eduoliveira.com",
+      "contributions": [
+        "projectManagement"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Resources",
+  "projectOwner": "SWEN900072021",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
