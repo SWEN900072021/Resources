@@ -14,7 +14,7 @@ This guide will provide you an overview of both.
 #### &nbsp;&nbsp;&nbsp;&nbsp; [Introduction to Apache TomCat](#introduction-to-apache-tomcat)
 #### &nbsp;&nbsp;&nbsp;&nbsp; [Benefits of a Container](#benefits-of-a-container)
 #### 5. [MVC Pattern](#mvc-pattern)
-#### 6. [MVC Pattern](#references)
+#### 6. [Resources](#resources)
 
 ### Introduction
 
