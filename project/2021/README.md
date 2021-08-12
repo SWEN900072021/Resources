@@ -10,7 +10,7 @@ The project aims to give students the experience to:
 *	Implement an application for your design. 
 *	Develop employability skills: teamwork, good communication, collaboration, problem-solving, critical-thinking, adaptability, initiative and leadership.
 
-Project details available here: [view](project_description.pdf)
+Project details available here: [view](project_description.md)
 
 ### Application Domain
 
