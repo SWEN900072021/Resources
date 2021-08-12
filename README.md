@@ -66,6 +66,7 @@ Within this repo download you'll find the following directories and files, logic
 │   ├── README.md
 │   └── screenshots
 └── workshops
+│   ├── <workshop_#>
 ````
 
 ## Canvas
