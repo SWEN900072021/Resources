@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## Table of contents
+## Table of Contents
 
 - [Goals](#goals)
 - [Documentation](#documentation)
@@ -40,6 +40,7 @@ Within this repo download you'll find the following directories and files, logic
 │   ├── 2021
 │   │   ├── screenshots
 │   │   ├── first_web_app.md
+│   │   ├── jsp_servlets.md
 │   │   ├── maven.md
 │   │   ├── README.md
 │   │   └── tools_and_plugins.md
