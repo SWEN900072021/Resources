@@ -153,8 +153,15 @@ To avoid both of these issues, you will make use of JSPs - Java introduced into 
 </body>
 </html>
 ````
-Try adding this into your JSP to see how you can introduce Java into your HTML pages using JSPs.
+Add this into any JSP in your project and run TomCat - now the webpage will dynamically write the date and time on your 
+webpage:
+
+![](resources/jsp_servlets_3.png?raw=true)
 
 ### Resources
 
 1. Head First JSPs and Servlet by Kathy Sierra
+
+-----
+
+> Now if you want to practice what you've learned, try the tutorial to [Create Your First Web App](first_web_app.md).

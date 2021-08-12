@@ -16,6 +16,8 @@ Below is a list of extra resources you can use to become more familiar with them
 | Java Servlet Pages (JSPs) | Server-side programming technology that enables the creation of dynamic, platform-independent method for building Web applications. | |
 | TomCat | | |
 
+> If you first want to learn the theory behind servlets, JSPs, and containers, check out [JSPs and Servlets](jsp_servlets.md).
+
 <details>
 <summary>Create a Web Application in IntelliJ</summary>
 Please complete the below steps to create your first project:
