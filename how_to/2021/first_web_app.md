@@ -14,7 +14,7 @@ Below is a list of extra resources you can use to become more familiar with them
 | PostgreSQL | Database | 1. PostgreSQL tutorial: [view](https://www.postgresqltutorial.com)</br>2. PostgreSQL tutorials and exercises: [view](https://www.postgresql.org/docs/online-resources/)|
 | Java Database Connectivity (JDBC) | An application programming interface (API) for the programming language Java, which defines how a client may access a database. | |
 | Java Servlet Pages (JSPs) | Server-side programming technology that enables the creation of dynamic, platform-independent method for building Web applications. | |
-| TomCat | | |
+| TomCat | Server and container to execute Java web applications. | |
 
 > If you first want to learn the theory behind servlets, JSPs, and containers, check out [JSPs and Servlets](jsp_servlets.md).
 

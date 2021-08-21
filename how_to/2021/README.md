@@ -28,6 +28,10 @@ you an overview of both.
 This guide gives you an overview of the build tool we will use this semester - Maven. It introduces Maven and how it
 specifies projects using the POM file, as well as how to add dependencies in your project.
 
-## [Tools and Plugins](tools_and_plugins.md)
+### [Introduction to Java and PostgreSQL](java_postgresql.md)
+
+This is a demo for students who are new to using Java to query an SQL database.
+
+### [Tools and Plugins](tools_and_plugins.md)
 
 Some of the teaching team's favourite tools and plugins for IntelliJ to help you as you complete your project.
