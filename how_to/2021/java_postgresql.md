@@ -28,7 +28,7 @@ public class DBConnection {
 }
 ````
 
-Replace all details with the URL, user, and password of your local PostgreSQL instance.
+> Replace the URL, user, and password with the details of your local PostgreSQL instance.
 
 We'll demonstrate how to create a connection to the database by using a connection method:
 ````
@@ -44,8 +44,8 @@ public static Connection connection() {
 }
 ````
 
-This method returns an object of type ````java.sql.Connection```` (i.e., it is a method that can be used anywhere to return a 
-connection to the database). You can call ````connection()```` to return a connection to the database.  
+This method returns an object of type ````java.sql.Connection```` (i.e., it is a method that can be called upon from
+anywhere else to return a connection to the database).  
 We'll demonstrate an example of this.
 
 ### Querying the Database
@@ -67,7 +67,7 @@ public static void query() {
     String username = "lrosa";
     String userPassword = "test";
     try {
-        // This is returning a connection to the database
+        // This is using the method we created above to return a connection to the database to execute the query
         conn = connection();
 
         findStatement = conn.prepareStatement(sql);
@@ -87,9 +87,9 @@ public static void query() {
 }
 ````
 
-You can see above, we are creating a query to search for a user in the database with username = Luke and password = 
+You can see above, we are creating a query to search for a user in the database with username = lrosa and password = 
 test.  
-This will return a result as the username and password have been correctly specified.
+This will return a result as the username and password have been correctly specified and exist in the database.
 
 #### ResultSet
 
@@ -102,13 +102,13 @@ I.e., when the data is first returned, the cursor of the ````ResultSet```` is at
 
 ![](resources/4_java_postgresql.png?raw=true)
 
-Calling ````rs.next()```` returns TRUE (as there is 1 row) and moves the cursor to position 1:
+Calling ````rs.next()```` returns TRUE (as there is >0 rows) and moves the cursor to position 1:
 
 ![](resources/5_java_postgresql.png?raw=true)
 
 Now you are pointing at row 1 and you can directly pull out the values for username or password.  
 There are 2 ways of doing this, you can query based on column name or column number.  
-First, let's demonstrate column name:
+First, let's demonstrate column name (copy this into the ````query()```` method you made above):
 ````
 if (rs.next()) {
     String username = rs.getString("username");
@@ -128,25 +128,43 @@ if (rs.next()) {
 
 Now you can use these details to create User objects in your application (or whatever else).
 
-If you try to call ````if (rs.next())```` again, it will return FALSE as the ResultSet pointer has now moved past the
-last row of the data returned from the database:
+At this point, you have moved the cursor to position (row) 1 and the ResultSet only contains 1 row. 
+That means, if you try to call ````if (rs.next())```` again, it will return FALSE as the ResultSet pointer has now
+moved past the last row of the data returned from the database:
 
 ![](resources/6_java_postgresql.png?raw=true)
 
 > Alternatively, if you expect to pull more than one row from the database, you can replace the ````if (rs.next())```` 
 > with ````while (rs.next())```` and the ````while```` statement will continue executing until the ````ResultSet```` 
-> runs out of rows and returns FALSE.
+> reaches the final row and returns FALSE.
 
 ### Closing a Connection
 
 It is very important that you close resources after using them, especially as the dev version of Heroku only has 10 
 threads (processes) it can use to create connections to the database. I.e., if you create more than 10 connections to 
 the database without closing them, your application will freeze and hang indefinitely (until Heroku/PostgreSQL decides 
-to terminate the already executed threads).
+to terminate the already executed threads - this could be minutes, hours, days, who knows).
 
-To do this, after each query to the database, add a ````finally```` clause:
+To do this, after each query to the database, add a ````finally```` clause (using the same example as above):
 ````
-finally {
+try {
+    // This is using the method we created above to return a connection to the database to execute the query
+    conn = connection();
+         
+    findStatement = conn.prepareStatement(sql);
+    findStatement.setString(1, username);
+    findStatement.setString(2, userPassword);
+    findStatement.execute();
+
+    rs = findStatement.getResultSet();
+    if (rs.next()) {
+        System.out.println("Username and password are correct.");
+    } else {
+        System.out.println("Username and/or password are incorrect.");
+    }
+} catch (SQLException e) {
+    //do something
+} finally {
     try {
         if (rs != null) {
             rs.close();
