@@ -1,7 +1,7 @@
 # Introduction to Java and PostgreSQL
 
-This is a demo for students who are new to using Java to query an SQL database.
-Before attempting these steps, make sure you have completed Steps 1-7 in [Setup Development Environment](../../setup_dev/README.md).
+This is a demo for students who are new to using Java to query an SQL database.  
+> Before attempting these steps, make sure you have completed Steps 1-7 in [Setup Development Environment](../../setup_dev/README.md).
 
 ### Table of Contents
 #### 1. [Opening a Connection](#opening-a-connection)
