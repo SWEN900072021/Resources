@@ -22,13 +22,13 @@ Copy the below into the new class:
 import java.sql.*;
 
 public class DBConnection {
-        private static final String url = "jdbc:postgresql://localhost:5433/postgres";
+        private static final String url = "jdbc:postgresql://localhost:5432/postgres";
         private static final String user = "postgres";
         private static final String password = "";
 }
 ````
 
-Enter the password as the password String. These are the credentials for your local Postgres instance (not Heroku).
+Replace all details with the URL, user, and password of your local PostgreSQL instance.
 
 We'll demonstrate how to create a connection to the database by using a connection method:
 ````
