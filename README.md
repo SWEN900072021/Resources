@@ -27,7 +27,7 @@ The documents are related to our subject planning, available on [Canvas](https:/
 Within this repo download you'll find the following directories and files, logically grouping common resources. You'll see something like this:
 ````
 ├── README.md
-├── code sample
+├── code_sample
 │   └── security
 ├── course_notes
 │   └── course_notes.pdf
